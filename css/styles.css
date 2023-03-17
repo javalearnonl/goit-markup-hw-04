@@ -330,7 +330,6 @@ img {
   align-items: center;
   width: 100%;
   height: 100%;
-  transition: 0.2s linear;
   color: #8e8f99;
 }
 .customers-icons {
@@ -339,11 +338,18 @@ img {
   fill: #8e8f99;
 }
 
-.customers-icons:hover,
-.customers-link:hover {
+.customers-link:hover .customers-icons,
+.customers-link:hover .customers-icons {
   fill: var(--accent-color);
 }
-
+.customers-link:hover,
+.customers-link:focus {
+  border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
+}
+.our-customers {
+  padding-bottom: 120px;
+}
 /* FOOTER SECTION */
 .footer {
   padding: 100px 0;
