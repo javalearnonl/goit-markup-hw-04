@@ -151,10 +151,19 @@ img {
 /* HERO SECTION */
 
 .hero {
-  background-color: var(--main-color);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/hero-background.jpg');
+  background-size: contain;
+  background-position: center;
+  width: 1440px;
+  margin: 0 auto;
   text-align: center;
   padding: 188px 0;
   border-top: 1px solid #e7e9fc;
+  background-color: var(--main-color);
 }
 
 .hero-title {
