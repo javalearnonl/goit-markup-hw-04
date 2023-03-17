@@ -223,6 +223,16 @@ img {
   letter-spacing: 0.02em;
   color: var(--secondary-color);
 }
+.icons-place-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+}
 
 /* ABOUT US */
 .works {
